@@ -1,4 +1,7 @@
 # lab11_web
+# Nama : Nunuk Panca Wulan
+# Kelas : TI.19.B2
+# NIM : 311910260
 
 # 1. MEMBUAT DATABASE DAN MEMBUAT TABLE
 ![image](https://user-images.githubusercontent.com/81863210/122750099-4fd35f00-d2b8-11eb-9366-51675c0fc527.png)
