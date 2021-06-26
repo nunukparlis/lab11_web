@@ -63,6 +63,56 @@
 ![image](https://user-images.githubusercontent.com/81863210/122763929-19521000-d2c9-11eb-9b6c-403182e67c6a.png)
 # tampilan setelah mengedit
 ![image](https://user-images.githubusercontent.com/81863210/122764010-34248480-d2c9-11eb-9bbf-80e5930e0878.png)
+---------------------------------------------------------------------------------------------------------
+
+# MEMBUAT TABLE USER LOGIN
+![image](https://user-images.githubusercontent.com/81863210/123502876-adc9c300-d679-11eb-836e-2d8473e28209.png)
+# 1. Membuat Table user 
+![image](https://user-images.githubusercontent.com/81863210/123502902-c76b0a80-d679-11eb-913c-ab2027ab56f7.png)
+# 2. Membuat model untuk proses data login
+![image](https://user-images.githubusercontent.com/81863210/123502963-27fa4780-d67a-11eb-83c7-35b1341e4cdf.png)
+# 3. Buat Controller baru dengan nama User.php pada direktori app/Controllers.
+# Kemudian tambahkan method index() untuk menampilkan daftar user, dan method
+# login() untuk proses login.
+![image](https://user-images.githubusercontent.com/81863210/123503075-bf5f9a80-d67a-11eb-9584-2b6fdfd6b136.png)
+![image](https://user-images.githubusercontent.com/81863210/123503106-f766dd80-d67a-11eb-9aaa-bb62a1c5a858.png)
+# 4. Membuat View Login
+# Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file
+# baru dengan nama login.php.
+![image](https://user-images.githubusercontent.com/81863210/123503151-54629380-d67b-11eb-9cdd-c785a71122c8.png)
+# 5. Membuat Database Seeder
+# Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul
+# login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat
+# database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+![image](https://user-images.githubusercontent.com/81863210/123503237-deaaf780-d67b-11eb-94d0-c2c6b72a50fd.png)
+# 6. Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori
+# /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+![image](https://user-images.githubusercontent.com/81863210/123503260-0601c480-d67c-11eb-88d6-44de2e461aef.png)
+# 7. Selanjutnya buka kembali CLI dan ketik perintah berikut:
+![image](https://user-images.githubusercontent.com/81863210/123503330-a3f58f00-d67c-11eb-88ce-8ae285665b99.png)
+# 8. Uji Coba Login
+# Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+![image](https://user-images.githubusercontent.com/81863210/123503342-b8d22280-d67c-11eb-86df-f8508eb8809b.png)
+# 9. Menambahkan Auth Filter
+# Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php
+# pada direktori app/Filters.
+![image](https://user-images.githubusercontent.com/81863210/123503400-fafb6400-d67c-11eb-8837-937e94b4ca5e.png)
+# 10. Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+![image](https://user-images.githubusercontent.com/81863210/123503429-2ed68980-d67d-11eb-8bed-e62ce2ee6fd4.png)
+# 11. Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
+![image](https://user-images.githubusercontent.com/81863210/123503451-4dd51b80-d67d-11eb-89c4-dad491c2a53f.png)
+# 12. Percobaan Akses Menu Admin
+# Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut
+# diakses maka, akan dimuculkan halaman login.
+![image](https://user-images.githubusercontent.com/81863210/123503531-b3290c80-d67d-11eb-96c7-dc505bd98434.png)
+# 13. Fungsi Logout
+# Tambahkan method logout pada Controller User seperti berikut:
+![image](https://user-images.githubusercontent.com/81863210/123503585-0dc26880-d67e-11eb-8695-846fb2685e76.png)
+
+
+
+
+
 
 
 
