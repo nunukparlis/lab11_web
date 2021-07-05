@@ -108,6 +108,38 @@
 # 13. Fungsi Logout
 # Tambahkan method logout pada Controller User seperti berikut:
 ![image](https://user-images.githubusercontent.com/81863210/123503585-0dc26880-d67e-11eb-8695-846fb2685e76.png)
+---------------------------------------------------------------------------------
+
+# Praktikum 14: Pagination dan Pencarian
+## 1.buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index
+![image](https://user-images.githubusercontent.com/81863210/124467102-98634000-ddc1-11eb-887d-9348b637e88d.png)
+## 2. Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut dibawah deklarasi tabel data.
+![image](https://user-images.githubusercontent.com/81863210/124467260-d06a8300-ddc1-11eb-88a2-f4a520d5e7ee.png)
+## 3. Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya. #data dibatasi 4 record per halaman
+![image](https://user-images.githubusercontent.com/81863210/124467685-61415e80-ddc2-11eb-8ad0-068c75bd9453.png)
+## 4. Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya
+![image](https://user-images.githubusercontent.com/81863210/124469982-37d60200-ddc5-11eb-8cc6-7db5ae388d88.png)
+
+## 5.Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel
+![image](https://user-images.githubusercontent.com/81863210/124470050-4c19ff00-ddc5-11eb-9a18-6727323e621e.png)
+## 6. Dan pada link pager ubah seperti berikut.
+![image](https://user-images.githubusercontent.com/81863210/124470094-5fc56580-ddc5-11eb-9ebe-1662f1176133.png)
+
+## 7. Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
+![image](https://user-images.githubusercontent.com/81863210/124469841-107f3500-ddc5-11eb-8343-5902168e2ee7.png)
+## 8. Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+![image](https://user-images.githubusercontent.com/81863210/124471641-50dfb280-ddc7-11eb-8b85-43d2c0fa6195.png)
+
+## 9. Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut.
+![image](https://user-images.githubusercontent.com/81863210/124470831-538dd800-ddc6-11eb-8d4c-45aa26494ff4.png)
+## 10. Ujicoba file upload dengan mengakses menu tambah artikel.
+![image](https://user-images.githubusercontent.com/81863210/124470978-846e0d00-ddc6-11eb-9b62-986bb239807b.png)
+## tampilan di setelah uplod dengan foto artikel
+![image](https://user-images.githubusercontent.com/81863210/124471727-6a80fa00-ddc7-11eb-8bee-2e5cf0197dca.png)
+
+
+
+
 
 
 
